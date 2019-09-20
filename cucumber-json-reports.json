@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-20T04:37:24.014Z",
+        "line": 15,
+        "name": "second scenario",
+        "description": "",
+        "id": "login;second-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 695100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user credss",
+            "match": {
+              "location": "StepDef.user_credss()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27138860500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user checks the creds and enters username and password as",
+            "match": {
+              "location": "StepDef.user_checks_the_creds_and_enters_username_and_password_as(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "lalitha",
+                  "password123"
+                ]
+              },
+              {
+                "cells": [
+                  "lalitha",
+                  "password123"
+                ]
+              },
+              {
+                "cells": [
+                  "lalitha",
+                  "password123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user log outs",
+            "match": {
+              "location": "StepDef.user_log_outs()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:pack1/file2.feature",
+    "tags": []
+  }
+]
