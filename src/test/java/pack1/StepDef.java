@@ -69,7 +69,9 @@ public class StepDef {
 		//System.out.println("The size is "+sz);
 		for(int i=0;i<sz;i++)
 		{
-			//In the data.get(i).get(0) instead of get(0) we can use get("Name") if we have declared in the feature file as such. 
+			//In the data.get(i).get(0) instead of get(0) we can use get("Name") if we have declared in the feature file as such.
+			
+			//Change check
 		driver.findElement(By.xpath("//*[@id=\"userName\"]")).sendKeys(data.get(i).get(0));
 		driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys(data.get(i).get(1));
 		driver.findElement(By.xpath("/html/body/main/div/div/div/form/fieldset/div[4]/div/input[1]")).click();
