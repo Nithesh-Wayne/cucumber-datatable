@@ -16,6 +16,6 @@ Feature: login
 	Given user credss
 	When user checks the creds and enters username and password as
 	|lalitha|password123|
-  |lalitha|password123|
-  |lalitha|password123|
+  	|lalitha|password123|
+  	|lalitha|password123|
 	Then user log outs
